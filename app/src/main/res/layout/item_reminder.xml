@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="104dp"
+    android:layout_gravity="center"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+    card_view:cardUseCompatPadding="true">
+
+    <TextView
+        android:id="@+id/tvReminder"
+        tools:text="Test reminder"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        style="@style/TextAppearance.MaterialComponents.Body2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</androidx.cardview.widget.CardView>
